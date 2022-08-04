@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: cabin ;
+  box-sizing: border-box;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #5386E4 ;
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+}
+
+/* Grid de produtos */
+.container {
+  background-color: #eee;
+  min-height: 60vh;
+  padding: 50px;
+}
+
+.products-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 31%;
+  margin: 1% 1%;
+  display: inline-block;
+  padding: 15px;
+}
+
+.product-image {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-position: center;
+  background-size: cover;
+}
+
+#img-1 {
+  background-image: url('../img/anuja.jpg');
+}
+
+#img-2 {
+  background-image: url('../img/de-von.jpg');
+}
+
+#img-3 {
+  background-image: url('../img/fotos-cmig.jpg');
+}
+
+#img-4 {
+  background-image: url('../img/fauzan.jpg');
+}
+
+#img-5 {
+  background-image: url('../img/fotos-Tnw4.jpg');
+}
+
+#img-6 {
+  background-image: url('../img/fotos-woFJ.jpg');
+}
+
+h3 {
+  margin-bottom: 10px;
+  color: #5386E4 ;
+  font-size: 24px;
+  border-left: 5px solid #03389a;
+  padding: 7px;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.align {
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #5386E4 ;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #03389a;
+}
+
+/* Rodapé */
+footer {
+  background-color: #5386E4 ;
+  text-align: center;
+  padding: 40px;
+  color: #fff;
+}
